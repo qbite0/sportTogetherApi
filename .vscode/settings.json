@@ -3,5 +3,9 @@
         "**/*.pyc": {"when": "$(basename).py"},
         "**/__pycache__/": true,
         "**/__init__.py": true
-    }
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    },
+    "python.formatting.provider": "none"
 }
